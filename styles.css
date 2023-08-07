@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    background: #a24164d4 100%;
+    margin: auto;
+}
+.Login{
+    width: 500px;
+    border-radius: 100px;
+    min-width: 400px;
+    border: 1px solid white;
+    border-top-left-radius: 100px;
+    margin: auto;
+}
+.Login img{
+    width:200px ;
+    display: block;
+    margin: 20px auto;
+    border-radius: 100px;
+    place-items: center;
+}
+.text{
+    text-align: center;
+    color:black;
+    font-weight: 700;
+    font-size: 10;
+}
+.Login input[type="Usuario"]{
+    margin-top: 10px;
+    color: black;
+
+}
+.Login input[type="Contraseña"]{
+    margin-top: 10px;
+    color: black;
+}
+
+.Login input{
+    color: black;
+    display: block;
+    height: 20px;
+    width: 200px;
+    margin: auto;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-family:'Courier New', Courier, monospace;
+    border: 1px solid black;
+    
+    
+
+}
+.Login input:hover{
+    transition: .5s;
+    border:1px solid white;
+    
+}
+.Login button{
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    height: 50px;
+    color: black;
+    border: 1px solid black;
+    outline: none;
+    display: block;
+    transition: all 05s;
+    cursor: pointer;
+}
+.Login button:hover{
+    color: black;
+    border: 1px solid black;
+    background: linear-gradient(white, white);
+
+}
+
